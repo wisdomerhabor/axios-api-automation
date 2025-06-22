@@ -1,0 +1,29 @@
+{
+  "name": "axios-api-automation-ii",
+  "version": "1.0.0",
+  "description": "Axios Jest API Automation Framework for GoRest",
+  "main": "index.js",
+  "scripts": {
+    "testDefault": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --config ./config/jest.config.js --detectOpenHandles",
+    "test:qa": "jest --config ./config/jest.config.js src/__tests__/users.test.js --detectOpenHandles"
+  },
+  "keywords": [
+    "api",
+    "automation",
+    "jest",
+    "axios"
+  ],
+  "author": "Wisdom Erhabor",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@faker-js/faker": "^9.8.0",
+    "axios": "^1.10.0",
+    "babel-jest": "^30.0.2",
+    "dotenv": "^16.5.0",
+    "jest": "^30.0.2",
+    "jest-html-reporters": "^3.1.7",
+    "jest-junit": "^16.0.0"
+  }
+}
